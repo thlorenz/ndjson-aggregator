@@ -1,0 +1,50 @@
+{
+  "name": "ndjson-aggregator",
+  "version": "0.0.0",
+  "description": "Aggregates ndjson output into one JSON object, keyed by a given property.",
+  "main": "ndjson-aggregator.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/ndjson-aggregator.git"
+  },
+  "homepage": "https://github.com/thlorenz/ndjson-aggregator",
+  "dependencies": {
+    "ndjson": "~1.3.0"
+  },
+  "devDependencies": {
+    "ocat": "~0.1.0",
+    "spok": "~0.3.2",
+    "tape": "~4.0.0"
+  },
+  "keywords": ["ndjson", "json", "aggregate", "data"],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/ndjson-aggregator/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest"
+    ]
+  }
+}
