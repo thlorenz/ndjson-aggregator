@@ -1,7 +1,5 @@
 'use strict';
 
-var ndjson = require('ndjson');
-
 function aggregateByProp(lines, prop) {
   var acc = {}, propVal, obj
   for (var i = 0, len = lines.length; i < len; i++) {
