@@ -1,13 +1,13 @@
 {
   "name": "ndjson-aggregator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Aggregates ndjson output into one JSON object, keyed by a given property.",
   "main": "ndjson-aggregator.js",
   "scripts": {
     "test": "tape test/*.js"
   },
-  "bin": { 
-   "ndja": "./ndja"
+  "bin": {
+    "ndja": "./ndja"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,12 @@
     "spok": "~0.3.2",
     "tape": "~4.0.0"
   },
-  "keywords": ["ndjson", "json", "aggregate", "data"],
+  "keywords": [
+    "ndjson",
+    "json",
+    "aggregate",
+    "data"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
