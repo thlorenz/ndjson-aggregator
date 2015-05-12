@@ -1,6 +1,6 @@
 {
   "name": "ndjson-aggregator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Aggregates ndjson output into one JSON object, keyed by a given property.",
   "main": "ndjson-aggregator.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git://github.com/thlorenz/ndjson-aggregator.git"
   },
   "homepage": "https://github.com/thlorenz/ndjson-aggregator",
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "ocat": "~0.1.0",
     "spok": "~0.3.2",
