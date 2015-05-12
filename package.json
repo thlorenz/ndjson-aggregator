@@ -1,6 +1,6 @@
 {
   "name": "ndjson-aggregator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Aggregates ndjson output into one JSON object, keyed by a given property.",
   "main": "ndjson-aggregator.js",
   "scripts": {
