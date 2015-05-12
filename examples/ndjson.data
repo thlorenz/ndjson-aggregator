@@ -1,0 +1,4 @@
+{"name":"buffers/buffer-creation","config":{"type":"fast","len":10,"n":1024},"time":"5381.98358"}
+{"name":"buffers/buffer-creation","config":{"type":"fast","len":1024,"n":1024},"time":"2010.33095"}
+{"name":"buffers/buffer-creation","config":{"type":"slow","len":10,"n":1024},"time":"1657.38571"}
+{"name":"buffers/buffer-creation","config":{"type":"slow","len":1024,"n":1024},"time":"1037.05861"}

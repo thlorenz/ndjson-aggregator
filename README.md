@@ -46,6 +46,20 @@ console.log(res)
 
     npm install ndjson-aggregator
 
+## CLI
+
+A cli tool name `ndja` will be in your path if you install this package globally.
+
+It takes a stream of ndjson data from *stdin* and outputs aggregated JSON to *stdout*.
+
+```sh
+ndja <property> < in-ndjson.data > out.json 
+
+## Example
+
+ndja name < examples/ndjson.data > out.json 
+```
+
 ## API
 
 <!-- START docme generated API please keep comment here to allow auto update -->

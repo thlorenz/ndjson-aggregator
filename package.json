@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape test/*.js"
   },
+  "bin": { 
+   "ndja": "./ndja"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/ndjson-aggregator.git"
